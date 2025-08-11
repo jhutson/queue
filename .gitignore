@@ -17,6 +17,8 @@
 !README.md
 !LICENSE
 
+!.github/workflows/*
+
 # !Makefile
 
 # ...even if they are in subdirectories
