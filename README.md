@@ -53,5 +53,5 @@ func main() {
 }
 ```
 
-The unbounded queue works similarly. The difference is that `Push` will return an error if the queue is full.
+The bounded queue works similarly. The difference is that `Push` will return an error if the queue is full.
 
