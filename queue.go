@@ -18,7 +18,7 @@ type Queue[Element any] interface {
 	// Pop removes and returns the first element of the queue. If the queue is empty, the ErrQueueEmpty error is returned.
 	Pop() (Element, error)
 
-	// Peek returns teh first element of the queue. If the queue is empty, the ErrQueueEmpty error is returned.
+	// Peek returns the first element of the queue. If the queue is empty, the ErrQueueEmpty error is returned.
 	Peek() (Element, error)
 
 	// Length returns the number of elements in the queue.
