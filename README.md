@@ -1,4 +1,9 @@
 # Queue Package
+
+[![Build Status](https://github.com/jhutson/queue/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/jhutson/queue/actions/workflows/ci.yml)
+[![Go Report Card](https://goreportcard.com/badge/github.com/jhutson/queue)](https://goreportcard.com/report/github.com/jhutson/queue)
+[![PkgGoDev](https://pkg.go.dev/badge/github.com/jhutson/queue)](https://pkg.go.dev/github.com/jhutson/queue)
+
 The `queue` package provides a ring-buffer based implementation of the queue data structure.
 
 The provided `Queue` interface is generic, to allow for varying the element type without resorting to using `interface{}`.
